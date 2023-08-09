@@ -205,13 +205,13 @@ function doWhile(num) {
    // Retornar el valor final.
    // Utilizar el bucle Do-While.
    // Tu código:
-   let contador = 0;
+   let cont = 0;
    let resultado = num;
 
    do{
       resultado = resultado + 5;
-      contador = contador + 1;
-   } while (contador < 8);
+      cont = cont + 1;
+   } while (cont < 8);
    return resultado;
 }
 
